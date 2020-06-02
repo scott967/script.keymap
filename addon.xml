@@ -16,4 +16,8 @@
         <forum>http://forum.xbmc.org/showthread.php?tid=168767</forum>
         <source>https://github.com/tamland/xbmc-keymap-editor</source>
     </extension>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<news>Kodi Matrix (python 3) compatible</news>
+	</assets>
 </addon>
