@@ -143,9 +143,9 @@ _actions = [
     "reboot"            , "Reboot",
     "hibernate"         , "Hibernate",
     "suspend"           , "Suspend",
-    "restartapp"        , "Restart XBMC",
+    "restartapp"        , "Restart Kodi",
     "system.logoff"     , "Log off",
-    "quit"              , "Quit XBMC",
+    "quit"              , "Quit Kodi",
   ]],
 
   ["Virtual Keyboard", [
