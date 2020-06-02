@@ -94,8 +94,7 @@ class KeyListener(WindowXMLDialog):
     TIMEOUT = 5
 
     def __new__(cls):
-        gui_api = tuple(map(int, xbmcaddon.Addon('xbmc.gui').getAddonInfo('version').split('.')))
-        file_name = "DialogNotification.xml" if gui_api >= (5, 11, 0) else "DialogKaiToast.xml"
+        file_name = "DialogNotification.xml"
         return super(KeyListener, cls).__new__(cls, file_name, "")
 
     def __init__(self):

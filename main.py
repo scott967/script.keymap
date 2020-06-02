@@ -39,7 +39,7 @@ def setup_keymap_folder():
         for name in os.listdir(userdata):
             if name.endswith('.xml') and name != os.path.basename(gen_file):
                 src = os.path.join(userdata, name)
-                for i in xrange(100):
+                for i in range(100):
                     dst = os.path.join(userdata, "%s.bak.%d" % (name, i))
                     if os.path.exists(dst):
                         continue
@@ -95,7 +95,7 @@ def main():
         else:
             break
 
-    sys.modules.clear()
+    # sys.modules.clear()
 
 if __name__ == "__main__":
     main()

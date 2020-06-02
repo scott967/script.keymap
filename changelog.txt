@@ -1,3 +1,6 @@
+[B]v1.0.10+matrix.1[/B]
+- Added support for v19 Matrix
+
 [B]v1.0.10[/B]
 - Added support for v17 Krypton
 

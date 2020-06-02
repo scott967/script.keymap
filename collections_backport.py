@@ -2,7 +2,7 @@
 # Passes Python2.7's test suite and incorporates all the latest updates.
 
 try:
-    from thread import get_ident as _get_ident
+    from threading import get_ident as _get_ident
 except ImportError:
     from dummy_thread import get_ident as _get_ident
 
